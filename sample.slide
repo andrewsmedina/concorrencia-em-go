@@ -45,9 +45,65 @@ f(x, y, z)
 
 ???????
 
-* Hello World assíncrono
+* Canais
+
+* Canais
+
+São pipes que conectam goroutines concorrentes
+
+* Canais
+
+c := make(chan int)
+
+* Canais
+
+c <- 1
+
+* Canais
+
+number := <-c
+
+* Hello World concorrente
 
 .play example4.go
+
+* Fibonnaci
+
+.play fibonnaci.go
+
+* Fibonnaci assíncrono
+
+.play fibonnaci1.go
+
+* Fibonnaci assíncrono
+
+.play fibonnaci2.go
+
+* Fibonnaci concorrente
+
+.play fibonnaci3.go
+
+* Fibonnaci concorrente
+
+.play fibonnaci4.go
+
+* Fibonnaci concorrente
+
+.play fibonnaci5.go
+
+* Select
+
+* Select
+
+O select permite que você espere em múltiplos canais de operações.
+
+* Select
+
+.code select.go
+
+* Fibonnaci concorrente
+
+.play fibonnaci6.go
 
 * Real world example
 
@@ -59,9 +115,7 @@ f(x, y, z)
 
 .play example6.go
 
-* Canais
 
-* Select
 
 * referências
 

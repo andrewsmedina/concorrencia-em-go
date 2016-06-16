@@ -6,6 +6,7 @@ import (
 	"net/http"
 )
 
+// start OMIT
 func getPage(address string) (string, error) {
 	log.Printf("logading %s", address)
 	resp, err := http.Get(address)
@@ -30,3 +31,5 @@ func main() {
 		}
 	}
 }
+
+// end OMIT

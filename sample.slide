@@ -107,19 +107,23 @@ O select permite que você espere em múltiplos canais de operações.
 
 * Fibonnaci concorrente
 
-.play fibonnaci6.go
+.play fibonnaci6.go /start/,/end/
 
 * Real world example
 
-.play crawler1.go
+.play crawler1.go /start/,/end/
 
 * Real world goroutine example
 
-.play crawler2.go
+.play crawler2.go /start/,/end/
 
 * Real world with syncronization
 
-.play crawler3.go
+.play crawler3.go /start/,/end/
+
+* Real world with syncronization
+
+.play crawler4.go /start/,/end/
 
 * Conclusões
 

@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// start OMIT
 func fibonacci(c, quit chan int) {
 	x, y := 0, 1
 	for {
@@ -28,3 +29,5 @@ func main() {
 	}()
 	fibonacci(c, quit)
 }
+
+// end OMIT

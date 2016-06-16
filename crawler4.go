@@ -7,7 +7,6 @@ import (
 	"sync"
 )
 
-// start OMIT
 func getPage(address string) (string, error) {
 	log.Printf("logading %s", address)
 	resp, err := http.Get(address)
@@ -23,8 +22,7 @@ func getPage(address string) (string, error) {
 	return string(body), err
 }
 
-// end OMIT
-
+// start OMIT
 func main() {
 	pages := []string{"http://tsuru.io", "http://globo.com", "http://g1.globo.com"}
 	var wg sync.WaitGroup
@@ -37,3 +35,5 @@ func main() {
 	}
 	wg.Wait()
 }
+
+// end OMIT

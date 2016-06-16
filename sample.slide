@@ -128,6 +128,7 @@ O select permite que você espere em múltiplos canais de operações.
 
 * Referências
 
+- https://blog.golang.org/concurrency-is-not-parallelism
 - https://p.souza.cc/o-modelo-de-concorrencia-da-linguagem-go/?full#ThankYou
 - https://www.youtube.com/watch?v=f6kdp27TYZs
 - http://www.golangbootcamp.com/book/concurrency

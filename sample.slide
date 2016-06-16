@@ -11,11 +11,57 @@ globo.com
 - Concorrência: lidar com várias coisas ao mesmo tempo
 - Paralelismo: fazer várias coisas ao mesmo tempo
 
-* csp
+* Hello World
 
-* goroutine
+.play example1.go
 
-* channels
+* Goroutines
+
+* Goroutines
+
+Uma `goroutine` é uma thread leve.
+
+* Goroutines
+
+go f(x, y, z)
+
+inicia uma goroutine que executa:
+
+f(x, y, z)
+
+* Hello World assíncrono
+
+.play example2.go
+
+* Hello World assíncrono
+
+???????
+
+* Hello World assíncrono
+
+.play example3.go
+
+* Hello World assíncrono
+
+???????
+
+* Hello World assíncrono
+
+.play example4.go
+
+* Real world example
+
+.play example4.go
+
+* Real world goroutine example
+
+* Real world with syncronization
+
+.play example6.go
+
+* Canais
+
+* Select
 
 * referências
 
@@ -23,4 +69,4 @@ globo.com
 - https://www.youtube.com/watch?v=f6kdp27TYZs
 - http://www.golangbootcamp.com/book/concurrency
 - https://matt.aimonetti.net/posts/2012/11/27/real-life-concurrency-in-go/
-- https://www.golang-book.com/books/intro/10 
+- https://www.golang-book.com/books/intro/10

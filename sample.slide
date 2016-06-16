@@ -79,9 +79,13 @@ number := <-c
 
 .play fibonnaci2.go
 
+* Range
+
 * Fibonnaci concorrente
 
 .play fibonnaci3.go
+
+* Close
 
 * Fibonnaci concorrente
 
@@ -107,17 +111,22 @@ O select permite que você espere em múltiplos canais de operações.
 
 * Real world example
 
-.play example4.go
+.play crawler1.go
 
 * Real world goroutine example
 
+.play crawler2.go
+
 * Real world with syncronization
 
-.play example6.go
+.play crawler3.go
 
+* Conclusões
 
+- Go é uma linguagem simples, poderosa e produtiva
+- Nenhum semáforo, condition variables, ou outros mecanismos primitivos de sincronização
 
-* referências
+* Referências
 
 - https://p.souza.cc/o-modelo-de-concorrencia-da-linguagem-go/?full#ThankYou
 - https://www.youtube.com/watch?v=f6kdp27TYZs
